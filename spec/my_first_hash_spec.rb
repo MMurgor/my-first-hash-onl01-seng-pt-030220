@@ -1,13 +1,3 @@
-context "Challenge I: Instantiating Hashes" do
-  describe "#my_hash" do
-    it "uses the literal constructor to create a hash that contains key/value pairs" do 
-      expect(my_hash).to be_a(Hash)
-      expect(my_hash.keys.count).to_not eq(0)
-    end
-
-  end
-end
-
 context "Challenge II: Hash with Data" do 
   describe "#shipping_manifest" do 
     it "sets a variable called shipping_manifest equal to a hash with key/value pairs describing old-timey items" do 
